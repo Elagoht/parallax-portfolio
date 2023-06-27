@@ -1,5 +1,5 @@
 header {
-  @apply fixed top-0 left-0 right-0 z-50 backdrop-blur;
+  @apply fixed top-0 left-0 right-0 z-50 bg-neutral-200 dark:bg-neutral-800 bg-opacity-70 dark:bg-opacity-70;
 }
 header .container {
   @apply flex justify-between items-center max-md:flex-col max-md:p-0;
@@ -11,7 +11,7 @@ header nav {
   @apply flex max-md:flex-col max-md:w-full;
 }
 header nav a {
-  @apply flex max-md:flex-col max-md:hover:bg-neutral-800 dark:max-md:hover:bg-neutral-200 max-md:hover:bg-opacity-10 dark:max-md:hover:bg-opacity-20 transition-colors h-24 px-4 items-center justify-center font-bold text-center;
+  @apply flex max-md:flex-col max-md:hover:bg-neutral-800 dark:max-md:hover:bg-neutral-200 max-md:hover:bg-opacity-20 dark:max-md:hover:bg-opacity-20 transition-colors h-24 px-4 items-center justify-center font-bold text-center;
 }
 
 header button {

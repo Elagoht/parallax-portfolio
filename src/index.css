@@ -12,6 +12,12 @@
     @apply max-w-screen-2xl mx-auto px-8;
     
   }
+  .screen {
+    @apply container min-h-screen;
+  }
+  .center {
+    @apply flex justify-center items-center;
+  }
 }
 @layer utilities {
   .font-title {
