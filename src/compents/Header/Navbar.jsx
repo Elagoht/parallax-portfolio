@@ -5,16 +5,21 @@ const Navbar = () => {
 
   const menu = useSelector(state => state.navMenu.open)
 
+  const closeHande = () => {
+    setMenuHandler(window.innerWidth > 768)
+  }
+
   return <AnimatePresence mode="wait">
     {menu && <motion.nav
-      initial={{ marginTop: "-100%", opacity: 0 }}
-      animate={{ marginTop: 0, opacity: 1 }}
-      exit={{ marginTop: "-100%", opacity: 0 }}
+      initial={{ height: 0, translateX: "-100%", opacity: 0 }}
+      animate={{ height: "24rem", translateX: 0, opacity: 1 }}
+      exit={{ height: 0, translateX: "100%", opacity: 0 }}
+      transition={{ ease: "easeInOut" }}
     >
-      <a onClick={() => setMenuHandler(false)} href="#about">About</a>
-      <a onClick={() => setMenuHandler(false)} href="#projects">Projects</a>
-      <a onClick={() => setMenuHandler(false)} href="#lessons">Lessons</a>
-      <a onClick={() => setMenuHandler(false)} href="#contacts">Contacts</a>
+      <a onClick={closeHande} href="#about">About</a>
+      <a onClick={closeHande} href="#projects">Projects</a>
+      <a onClick={closeHande} href="#lessons">Lessons</a>
+      <a onClick={closeHande} href="#contacts">Contacts</a>
     </motion.nav >}
   </AnimatePresence>
 }
