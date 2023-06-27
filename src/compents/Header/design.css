@@ -1,0 +1,23 @@
+header {
+  @apply fixed top-0 left-0 right-0;
+}
+
+header .container {
+  @apply flex justify-between items-center max-md:flex-col max-md:px-4;
+}
+
+header nav {
+  @apply flex max-md:flex-col
+}
+
+header nav a {
+  @apply h-24 px-4 flex items-center font-bold;
+}
+
+header button {
+  @apply flex-col justify-center gap-[.375rem] px-8 h-24 -ml-4 hidden max-md:flex
+}
+
+header button div {
+  @apply w-10 h-1 rounded-full bg-current;
+}
