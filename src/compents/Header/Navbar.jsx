@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return <AnimatePresence mode="wait">
     {menu && <motion.nav
-      initial={{ height: 0, translateX: "-100%", opacity: 0 }}
-      animate={{ height: "24rem", translateX: 0, opacity: 1 }}
-      exit={{ height: 0, translateX: "100%", opacity: 0 }}
+      initial={{ height: 0, translateY: "-100%", opacity: 0 }}
+      animate={{ height: "auto", translateY: 0, opacity: 1 }}
+      exit={{ height: 0, translateY: "-100%", opacity: 0 }}
       transition={{ ease: "easeInOut" }}
     >
       <a onClick={closeHande} href="#about">About</a>
