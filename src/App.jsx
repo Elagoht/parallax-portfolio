@@ -1,6 +1,6 @@
 import { Parallax } from "@react-spring/parallax"
 import Header from "./compents/Header"
-import Welcome from "./compents/Welcome"
+import Welcome from "./pages/Welcome"
 
 function App() {
   return <>

@@ -15,13 +15,13 @@ const Welcome = () => {
         <h2>
           Software Developer, Designer, Instructor.
         </h2>
-        <a href="#about"
-          className="absolute bottom-10 flex flex-col items-center gap-2"
-        >
-          See More
-          <ChevronDown />
-        </a>
       </section>
+      <a href="#about"
+        className="absolute bottom-0 left-0 right-0 flex flex-col items-center gap-2"
+      >
+        See More
+        <ChevronDown />
+      </a>
     </ParallaxLayer >
   </>
 }

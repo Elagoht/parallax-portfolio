@@ -6,7 +6,7 @@
 
 @layer components {
   html {
-    @apply font-[Comfortaa] text-neutral-900 bg-neutral-100 dark:text-neutral-100  dark:bg-neutral-900;
+    @apply font-[Comfortaa] text-neutral-900 bg-neutral-100 dark:text-neutral-100 dark:bg-neutral-900;
   }
   .container {
     @apply max-w-screen-2xl mx-auto px-8;
