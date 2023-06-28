@@ -1,13 +1,10 @@
-import { Parallax } from "@react-spring/parallax"
-import Header from "./compents/Header"
-import Welcome from "./pages/Welcome"
+import Header from "./components/Header"
+import ParallaxLayout from "./components/ParallaxLayout"
 
 function App() {
   return <>
     <Header />
-    <Parallax pages={5} className="top-0 left-0">
-      <Welcome />
-    </Parallax>
+    <ParallaxLayout />
   </>
 }
 

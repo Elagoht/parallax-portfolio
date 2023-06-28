@@ -5,12 +5,33 @@
 @tailwind utilities;
 
 @layer components {
+  * {
+    text-shadow: 0 0 .125rem currentColor;
+    @apply scroll-smooth;
+  }
   html {
     @apply font-[Comfortaa] text-neutral-900 bg-neutral-100 dark:text-neutral-100 dark:bg-neutral-900;
   }
+  h1 {
+    @apply !text-6xl leading-relaxed !font-bold;
+  }
+  h2 {
+    @apply !text-2xl;
+  }
   .container {
     @apply max-w-screen-2xl mx-auto px-8;
-    
+  }
+  p {
+    @apply text-lg;
+  }
+  article h1 {
+    @apply !text-4xl text-rose-500;
+  }
+  article p {
+    @apply my-4 text-neutral-800;
+  }
+  article a {
+    @apply underline decoration-2 underline-offset-4
   }
   .screen {
     @apply container min-h-screen;
