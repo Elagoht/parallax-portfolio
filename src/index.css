@@ -39,6 +39,17 @@
   .center {
     @apply flex justify-center items-center;
   }
+  .floating {
+    animation: floating 4s infinite linear;
+    @apply transition-all duration-1000;
+  }
+  @keyframes floating{
+    0% { transform: rotate(0deg) translate(.2rem) rotate(0deg); }
+    25% { transform: rotate(0.5turn) translate(.3rem) rotate(-0.5turn); }
+    50% { transform: rotate(1turn) translate(.25rem) rotate(-1turn); }
+    75% { transform: rotate(1.5turn) translate(.15rem) rotate(-1.5turn); }
+    100% { transform: rotate(2turn) translate(.2rem) rotate(-2turn); }
+  }
 }
 @layer utilities {
   .font-title {
