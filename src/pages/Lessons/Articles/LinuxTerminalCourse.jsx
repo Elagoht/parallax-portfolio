@@ -1,6 +1,6 @@
 import img_linux_terminal from "../../../assets/lessons/linux_terminal.jpg"
 import Showcase from '../../../components/Showcase'
-import { MonitorPlay } from 'lucide-react'
+import { File, MonitorPlay } from 'lucide-react'
 
 
 const LinuxTerminalCourse = () => {
@@ -22,7 +22,7 @@ const LinuxTerminalCourse = () => {
         className="button" target="_blank" rel="noreferrer"
         href="https://www.youtube.com/watch?v=49OO2gD-x8E&list=PLGIvph8XiC3Qze9JPrU4JrwKqBd7E1bah"
       >
-        <MonitorPlay /> Resources
+        <File /> Resources
       </a>
     </div>
   </Showcase>
