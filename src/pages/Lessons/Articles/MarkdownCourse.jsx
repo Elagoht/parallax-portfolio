@@ -1,4 +1,4 @@
-import { MonitorPlay } from "lucide-react"
+import { File, MonitorPlay } from "lucide-react"
 import img_markdown from "../../../assets/lessons/markdown.jpg"
 import Showcase from "../../../components/Showcase"
 
@@ -20,7 +20,7 @@ const MarkdownCourse = () => {
         className="button" target="_blank" rel="noreferrer"
         href="https://github.com/Elagoht/30-dakikada-markdown-ogrenin"
       >
-        <MonitorPlay /> Resources
+        <File /> Resources
       </a>
     </div>
   </Showcase >

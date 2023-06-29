@@ -25,7 +25,7 @@
     @apply text-lg leading-relaxed;
   }
   article h1 {
-    @apply !text-4xl text-rose-500;
+    @apply !text-4xl text-amber-400;
   }
   article a {
     @apply underline decoration-2 underline-offset-4
