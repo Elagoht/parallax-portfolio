@@ -2,8 +2,8 @@ import { ChevronDown } from "lucide-react"
 
 const Welcome = () => {
   return <>
-    <section className="screen max-w-full center relative">
-      <div id="welcome">
+    <section className="screen max-w-full center relative" id="welcome">
+      <div>
         <h1 className="text-purple-300">
           Hi! 👋 I am<br />
           Furkan Baytekin.
