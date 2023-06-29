@@ -1,4 +1,4 @@
-export default function Lessons() {
+const Lessons = () => {
   return <section className="container screen center" id="lessons">
     <div>
       <h1 className="text-6xl font-title mb-8 max-md:!text-4xl">
@@ -10,3 +10,5 @@ export default function Lessons() {
     </div>
   </section >
 }
+
+export default Lessons

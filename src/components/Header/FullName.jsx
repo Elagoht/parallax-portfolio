@@ -3,9 +3,12 @@ import MenuController from "./MenuController"
 const FullName = () => {
   return <div id="name-field" className="font-title">
     <MenuController />
-    <div className="flex-1">
+    <a
+      href="#welcome"
+      className="h-24 center"
+    >
       Furkan Baytekin
-    </div>
+    </a>
   </div>
 }
 

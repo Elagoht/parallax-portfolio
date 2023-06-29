@@ -20,9 +20,11 @@ import VimCourse from "../pages/Lessons/Articles/VimCourse"
 import Lessons from "../pages/Lessons"
 import LinuxTerminalCourse from "../pages/Lessons/Articles/LinuxTerminalCourse"
 import MarkdownCourse from "../pages/Lessons/Articles/MarkdownCourse"
+import BackgroundContact from "../pages/Contact/BackgroundContact"
+import Contact from "../pages/Contact"
 
 const ParallaxLayout = () => {
-  return <Parallax pages={25} className="top-0 left-0">
+  return <Parallax pages={26} className="top-0 left-0">
 
     <Shapes />
     <ParallaxLayer offset={0} speed={.75}> <Welcome /> </ParallaxLayer>
@@ -48,6 +50,9 @@ const ParallaxLayout = () => {
     <ParallaxLayer sticky={{ start: 19.75, end: 20.5 }}> <VimCourse /> </ParallaxLayer>
     <ParallaxLayer sticky={{ start: 21.5, end: 22.25 }}> <LinuxTerminalCourse /> </ParallaxLayer>
     <ParallaxLayer sticky={{ start: 23.25, end: 24 }}> <MarkdownCourse /> </ParallaxLayer>
+
+    <ParallaxLayer sticky={{ start: 24.5, end: 25.5 }}> <BackgroundContact /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 24.5, end: 25.5 }}> <Contact /> </ParallaxLayer>
   </Parallax >
 }
 

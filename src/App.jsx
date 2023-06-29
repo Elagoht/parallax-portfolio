@@ -1,7 +1,7 @@
 import Header from "./components/Header"
 import ParallaxLayout from "./components/ParallaxLayout"
 
-function App() {
+const App = () => {
   return <>
     <Header />
     <ParallaxLayout />

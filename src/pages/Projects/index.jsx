@@ -1,4 +1,4 @@
-export default function Projects() {
+const Projects = () => {
   return <section className="container screen center" id="projects">
     <div>
       <h1 className="text-6xl font-title mb-8 max-md:!text-4xl">
@@ -10,3 +10,5 @@ export default function Projects() {
     </div>
   </section>
 }
+
+export default Projects

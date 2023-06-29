@@ -1,4 +1,4 @@
-export default function Showcase({ img, children }) {
+const Showcase = ({ img, children }) => {
   return <article className="content-container screen center">
     <img
       className="w-1/2 max-lg:w-full object-contain"
@@ -9,3 +9,5 @@ export default function Showcase({ img, children }) {
     </div>
   </article>
 }
+
+export default Showcase
