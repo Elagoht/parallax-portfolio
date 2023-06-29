@@ -1,5 +1,5 @@
 import { BadgePlus, CreativeCommons, Lightbulb, Quote } from "lucide-react"
-import Paper from "./Paper"
+import Paper from "../../../components/Paper"
 
 const WhoAmI = () => {
   return <Paper title="Who Am I?">

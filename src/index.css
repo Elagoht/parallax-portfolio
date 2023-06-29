@@ -22,13 +22,10 @@
     @apply max-w-screen-2xl mx-auto px-8;
   }
   p {
-    @apply text-lg;
+    @apply text-lg leading-relaxed;
   }
   article h1 {
     @apply !text-4xl text-rose-500;
-  }
-  article p {
-    @apply my-4 text-neutral-800;
   }
   article a {
     @apply underline decoration-2 underline-offset-4
@@ -42,6 +39,21 @@
   .floating {
     animation: floating 4s infinite linear;
     @apply transition-all duration-1000;
+  }
+  .content-container {
+    @apply flex gap-8 max-lg:flex-col max-w-4xl pt-16 
+  }
+  .content-container h1 {
+    @apply text-3xl font-bold leading-tight max-md:text-center 
+  }
+  .content-container p {
+    @apply text-base text-neutral-800 dark:text-neutral-200
+  }
+  .content-container a {
+    @apply underline underline-offset-2
+  }
+  .content-container a.button {
+    @apply border-2 font-medium no-underline border-neutral-800 dark:border-neutral-200 rounded-md p-2 flex gap-2 items-center hover:bg-neutral-800 dark:hover:bg-neutral-200 hover:text-neutral-200 dark:hover:text-neutral-800 transition-colors text-center;
   }
   @keyframes floating{
     0% { transform: rotate(0deg) translate(.2rem) rotate(0deg); }

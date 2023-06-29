@@ -5,7 +5,6 @@ import { AnimatePresence, motion } from "framer-motion"
 const MenuController = () => {
 
   const menu = useSelector(store => store.navMenu.open)
-  console.log(menu)
 
   return <button onClick={() => toggleMenuHandler()}>
     <AnimatePresence mode="wait">

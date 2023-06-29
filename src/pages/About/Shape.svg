@@ -1,8 +1,8 @@
 <svg id="sw-js-blob-svg" viewBox="16 16 76 71" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
-            <stop id="stop1" stop-color="rgba(275, 150, 155, 1)" offset="0%"></stop>
-            <stop id="stop2" stop-color="rgba(271, 151, 141, 1)" offset="100%"></stop>
+            <stop id="stop1" stop-color="#ff96be" offset="0%"></stop>
+            <stop id="stop2" stop-color="#ff8ddd" offset="100%"></stop>
         </linearGradient>
     </defs>
     <path fill="url(#sw-gradient)"

@@ -1,4 +1,4 @@
-import Paper from "../Paper"
+import Paper from "../../../components/Paper"
 import tech_icons from "../../../assets/stack"
 import "../design.css"
 

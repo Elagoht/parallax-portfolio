@@ -1,4 +1,4 @@
-import Paper from "../Paper"
+import Paper from "../../../components/Paper"
 
 const WhatIDo = () => {
   return <Paper title="What I Do?">
