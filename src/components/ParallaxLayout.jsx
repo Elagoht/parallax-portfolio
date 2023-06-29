@@ -24,35 +24,36 @@ import BackgroundContact from "../pages/Contact/BackgroundContact"
 import Contact from "../pages/Contact"
 
 const ParallaxLayout = () => {
-  return <Parallax pages={26} className="top-0 left-0">
+  return <Parallax pages={31} className="top-0 left-0">
 
     <Shapes />
     <ParallaxLayer offset={0} speed={.75}> <Welcome /> </ParallaxLayer>
 
-    <ParallaxLayer sticky={{ start: 1, end: 6 }}> <BackgroundAbout /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 1, end: 1.25 }}> <About /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 1.75, end: 2.5 }}> <WhoAmI /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 3.5, end: 4.25 }}> <WhatIDo /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 5.25, end: 6 }}> <TechStack /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 1, end: 7 }}> <BackgroundAbout /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 1, end: 1.75 }}> <About /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 2.75, end: 3.5 }}> <WhoAmI /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 4.5, end: 5.25 }}> <WhatIDo /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 6.25, end: 7 }}> <TechStack /> </ParallaxLayer>
 
-    <ParallaxLayer sticky={{ start: 6.5, end: 18.5 }}> <BackgroundProjects /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 6.5, end: 6.75 }}> <Projects /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 7.25, end: 8 }}> <NewTabPage /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 9, end: 9.75 }}> <TerminalPortfolio /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 10.75, end: 11.5 }}> <MakeEndeavourOSGreat /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 12.5, end: 13.25 }}> <PugCV /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 14.25, end: 15 }}> <AlbumAdvertise /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 16, end: 16.75 }}> <BlackBlog /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 17.75, end: 18.5 }}> <SudoMice /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 8, end: 21.5 }}> <BackgroundProjects /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 8, end: 8.75 }}> <Projects /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 9.75, end: 10.5 }}> <NewTabPage /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 11.5, end: 12.25 }}> <TerminalPortfolio /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 13.25, end: 14.5 }}> <MakeEndeavourOSGreat /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 15.5, end: 16.25 }}> <PugCV /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 17.25, end: 18 }}> <AlbumAdvertise /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 19, end: 19.75 }}> <BlackBlog /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 20.75, end: 21.5 }}> <SudoMice /> </ParallaxLayer>
 
-    <ParallaxLayer sticky={{ start: 19, end: 24 }}> <BackgroundLessons /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 19, end: 19.25 }}> <Lessons /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 19.75, end: 20.5 }}> <VimCourse /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 21.5, end: 22.25 }}> <LinuxTerminalCourse /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 23.25, end: 24 }}> <MarkdownCourse /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 22.5, end: 29 }}> <BackgroundLessons /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 22.5, end: 23.25 }}> <Lessons /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 24.25, end: 25.5 }}> <VimCourse /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 26.5, end: 27.25 }}> <LinuxTerminalCourse /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 28.25, end: 29 }}> <MarkdownCourse /> </ParallaxLayer>
 
-    <ParallaxLayer sticky={{ start: 24.5, end: 25.5 }}> <BackgroundContact /> </ParallaxLayer>
-    <ParallaxLayer sticky={{ start: 24.5, end: 25.5 }}> <Contact /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 30, end: 31 }}> <BackgroundContact /> </ParallaxLayer>
+    <ParallaxLayer sticky={{ start: 30, end: 31 }}> <Contact /> </ParallaxLayer>
+
   </Parallax >
 }
 
